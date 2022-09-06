@@ -1,0 +1,20 @@
+/* criar o botao */
+.dsmeta-botao-vermelho {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    /* alinhar a imagem  */
+    align-items: center;
+    justify-content: center;
+    /* tudo ao centro  */
+    cursor: pointer;
+    /* quando passar o mouse vira uma maozinha  */
+}
+
+/* mexer no tamanho da img */
+.dsmeta-botao-vermelho img {
+    width: 19px;
+}
