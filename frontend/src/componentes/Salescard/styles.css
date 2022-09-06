@@ -1,0 +1,323 @@
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    /* dps como arrendondar as bordas dentro da class dsmeta-card */
+    padding: 30px 10px;
+    /* colocar espaçamento da borda na palavra vendas 10pxvertical e 30 pxlaterais */
+
+
+}
+
+.dsmeta-caixa-texto {
+    margin-bottom: 16px;
+
+}
+
+
+.dsmeta-form-control {
+    /* editar as caixinhas onde fica a datas usando medidas do figma */
+    width: 100%;
+    height: 36px;
+    background-color: #1B2531;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    /* arrendondar borda */
+    color: #9aaabe;
+    /* mudar cor da fonte de texto */
+    padding: 0 20px;
+    /* padding serve pra da espaçamento na caixa de texto */
+    font-size: 18px;
+    /* tamanho do texto */
+    margin-bottom: 16px;
+    /* colocar margem para dar espaçamento da caixa de texto */
+    max-width: 300px;
+    /* tamanho da caixa de texto */
+}
+
+.dsmeta-saldo-tabela {
+    /* mexendo na tabela  (estilo) */
+    width: 100%;
+    /* tamanho da tabela */
+    border-spacing: 0;
+    /* espaçamento entre as bordas */
+    border-collapse: collapse;
+    /* fazer a linha aparecer em cima junto c as edicoes do tr la em baixo   */
+
+
+
+}
+
+dsmeta-saldo-tabela thead {
+    /* formatar o thead dentro dessa classe   */
+    height: 55px;
+    /* alturas*/
+    font-size: 16px;
+    /* tamanho fonte */
+    color: #E9E9E9;
+    /* cor da  fonte */
+    font-weight: 700;
+}
+
+.dsmeta-saldo-tabela tbody {
+    /* editar o tbody*/
+    font-size: 14px;
+    font-weight: 400;
+    /* peso da fonte */
+    color: #CFCFCF;
+    text-align: center;
+    /* alinhar texto c centro da tabela */
+}
+
+.dsmeta-saldo-tabela tbody tr {
+    /*formatar a linha */
+    height: 74px;
+    /* tamanho da fonte */
+    border-top: 1px solid #5F6E82;
+    /* fazer a bordinha cinza que separa os nomes */
+
+}
+
+.dsmeta-saldo-tabela tbody tr:hover>th {
+    /* efeito pra quando passar o mouse em cima mudar de cor = tr:hover > td */
+    background-color: #384459;
+
+}
+
+.dsmeta-saldo-tabela tbody tr:nth-child(odd) {
+    /* colocar pra pegar so um elemento de cada vez*/
+    background-color: #242C3B;
+
+}
+
+
+/*usar o  outro div para alinhar imagem com texto */
+.dsmeta-botao-vermelho-container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.sumir992 {
+    display: none;
+}
+
+/* fazer a data aparecer e sumir em certa resolução */
+@media(min-width : 992px) {
+    .sumir992 {
+        display: table-cell;
+    }
+
+    .sumir576 {
+        display: none;
+    }
+
+    .dsmeta-card {
+        /* mexer no espaçamento */
+
+        padding: 35px;
+        /* espaçamento interno   */
+    }
+
+    .dsmeta-saldo-tabela tbody tr {
+        height: 55px;
+
+    }
+
+    .dsmeta-saldo-tabela tbody tr {
+        font-size: 18px;
+
+    }
+
+    @media(min-width : 576px) {
+        .sumir576 {
+            display: table-cell;
+        }
+    }
+}
+
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    /* dps como arrendondar as bordas dentro da class dsmeta-card */
+    padding: 30px 10px;
+    /* colocar espaçamento da borda na palavra vendas 10pxvertical e 30 pxlaterais */
+
+
+}
+
+.dsmeta-largura {
+    width: 100%;
+    max-width: 900px;
+    /* tamanho max. da linha */
+    margin: 0 auto;
+    /* alinhar texto ao centro */
+}
+
+/* agora formatar o id criando no section "vendas"  --- id usa o # não o"." */
+#vendas {
+    padding: 40px 10px;
+    /* padding serve para um espaçamento interno */
+
+
+}
+
+
+/* colocar margem para dar espaçamento da caixa de texto */
+
+
+
+.dsmeta-caixa-texto {
+    margin-bottom: 16px;
+
+}
+
+
+.dsmeta-form-control {
+    /* editar as caixinhas onde fica a datas usando medidas do figma */
+    width: 100%;
+    height: 36px;
+    background-color: #1B2531;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    /* arrendondar borda */
+    color: #9aaabe;
+    /* mudar cor da fonte de texto */
+    padding: 0 20px;
+    /* padding serve pra da espaçamento na caixa de texto */
+    font-size: 18px;
+    /* tamanho do texto */
+    margin-bottom: 16px;
+    /* colocar margem para dar espaçamento da caixa de texto */
+    max-width: 300px;
+    /* tamanho da caixa de texto */
+}
+
+.dsmeta-saldo-tabela {
+    /* mexendo na tabela  (estilo) */
+    width: 100%;
+    /* tamanho da tabela */
+    border-spacing: 0;
+    /* espaçamento entre as bordas */
+    border-collapse: collapse;
+    /* fazer a linha aparecer em cima junto c as edicoes do tr la em baixo   */
+
+
+
+}
+
+dsmeta-saldo-tabela thead {
+    /* formatar o thead dentro dessa classe   */
+    height: 55px;
+    /* alturas*/
+    font-size: 16px;
+    /* tamanho fonte */
+    color: #E9E9E9;
+    /* cor da  fonte */
+    font-weight: 700;
+}
+
+.dsmeta-saldo-tabela tbody {
+    /* editar o tbody*/
+    font-size: 14px;
+    font-weight: 400;
+    /* peso da fonte */
+    color: #CFCFCF;
+    text-align: center;
+    /* alinhar texto c centro da tabela */
+}
+
+.dsmeta-saldo-tabela tbody tr {
+    /*formatar a linha */
+    height: 74px;
+    /* tamanho da fonte */
+    border-top: 1px solid #5F6E82;
+    /* fazer a bordinha cinza que separa os nomes */
+
+}
+
+.dsmeta-saldo-tabela tbody tr:hover>th {
+    /* efeito pra quando passar o mouse em cima mudar de cor = tr:hover > td */
+    background-color: #384459;
+
+}
+
+.dsmeta-saldo-tabela tbody tr:nth-child(odd) {
+    /* colocar pra pegar so um elemento de cada vez*/
+    background-color: #242C3B;
+
+}
+
+
+/*usar o  outro div para alinhar imagem com texto */
+.dsmeta-botao-vermelho-container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+
+/* criar o botao */
+.dsmeta-botao-vermelho {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    /* alinhar a imagem  */
+    align-items: center;
+    justify-content: center;
+    /* tudo ao centro  */
+    cursor: pointer;
+    /* quando passar o mouse vira uma maozinha  */
+}
+
+/* mexer no tamanho da img */
+.dsmeta-botao-vermelho img {
+    width: 19px;
+
+}
+
+.sumir992 {
+    display: none;
+}
+
+/* fazer a data aparecer e sumir em certa resolução */
+@media(min-width : 992px) {
+    .sumir992 {
+        display: table-cell;
+    }
+
+    .sumir576 {
+        display: none;
+    }
+
+    .dsmeta-card {
+        /* mexer no espaçamento */
+
+        padding: 35px;
+        /* espaçamento interno   */
+    }
+
+    .dsmeta-saldo-tabela tbody tr {
+        height: 55px;
+
+    }
+
+    .dsmeta-saldo-tabela tbody tr {
+        font-size: 18px;
+
+    }
+
+    @media(min-width : 576px) {
+        .sumir576 {
+            display: table-cell;
+        }
+    }
+}

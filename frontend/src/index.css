@@ -19,3 +19,18 @@ a:visited {
   color: unset;
   text-decoration: none;
 }
+.dsmeta-largura {
+  width: 100%;
+  max-width: 900px;
+  /* tamanho max. da linha */
+  margin: 0 auto;
+  /* alinhar texto ao centro */
+}
+
+/* agora formatar o id criando no section "vendas"  --- id usa o # não o"." */
+#vendas {
+  padding: 40px 10px;
+  /* padding serve para um espaçamento interno */
+
+
+}

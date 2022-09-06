@@ -1,0 +1,55 @@
+header {
+    /* header = cabeçario */
+    height: 220px;
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    /* copiado do figma  (essas medidas de px tbm )*/
+    display: flex;
+    /* faz tudo vim pra esquerda */
+    align-items: center;
+    /* ajustar cabeçario com os demais itens no centro */
+    justify-content: center;
+    /* ajudar tudo no centro */
+
+
+    /* isso fez com que tudo se alinhasse no centro com o cabeçario e centralizou os textos tbm */
+}
+
+
+
+
+/*classe criada no cabeçario */
+.dsmeta-logo-container {
+    display: flex;
+    /* um na frente do outro  */
+    flex-direction: column;
+    /* colocando um embaixo do outro */
+    align-items: center;
+    /* posicion da imagem*/
+}
+
+
+/* arrumar o tamanho da imagem do cabeçario  */
+.dsmeta-logo-container img {
+    /* todas as imagens em svg vao ter esses parametros  */
+    width: 235px;
+    /*tamanho da imagem do cabeçario */
+
+
+}
+
+
+.dsmeta-logo-container h1 {
+    /* dar espaço da imagem para o texto */
+    margin-top: 15px;
+    /*pegado do figma retangule 7    */
+    font-size: 24px;
+
+}
+
+.dsmeta-logo-container p {
+    /* mexer no tamanho da fonte p */
+
+    font-size: 14px;
+    font-weight: 300;
+    /* peso da fonte do figma retangule 7 */
+}
